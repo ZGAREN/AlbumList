@@ -11,7 +11,7 @@ private lateinit var albumInterface: AlbumInterface
 class PostAlbum {
 
     companion object {
-        const val BASE_URL = "https://static.leboncoin.fr/img/shared/technical-test.json"
+        const val BASE_URL = "https://static.leboncoin.fr/"
         private var INSTANCE: PostAlbum? = null
         fun getInstance(): PostAlbum? {
             if (INSTANCE == null)

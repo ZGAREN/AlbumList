@@ -5,6 +5,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface AlbumInterface {
-    @GET("")
+    @GET("img/shared/technical-test.json")
     fun getPost(): Call<List<AlbumModel>>
 }
